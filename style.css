@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
+html{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: "Dosis", Helvetica, Arial, sans-seri;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F5F5F7;
+    align-items: center;
+}
+
+input[type=checkbox]{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    position: absolute;
+    width: 380px;
+    height: 270px;
+    top: 0px;
+}
+.drums{
+    position: absolute;
+    top: 55vh;
+    margin: 0px 100px;
+}
+#player{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    height: 280px;
+    width: 5px;
+    left: 208px;
+    top: 25px;
+    z-index: 1;
+    background-color: black;
+    animation-name: none;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#inst{
+    position: absolute;
+    top: 2vh;
+    right: 10vh;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0e664;
+    border-radius: 20px;
+}
+.ohat{
+    position: relative;
+    width: 860px;
+    height: 50px;
+    left: 25%;
+}
+.chat{
+    position: relative;
+    width: 860px;
+    height: 50px;
+    left: 25%;
+}
+.clap{
+    position: relative;
+    width: 860px;
+    height: 50px;
+    left: 25%;
+}
+.kick{
+    position: relative;
+    width: 860px;
+    height: 50px;
+    left: 25%;
+}
+.lbl{
+    font-size: 20px;
+    color: #34495e;
+}
+.one{
+    position: relative;
+    top: 40px;
+    left: 130px;
+}
+.two{
+    position: relative;
+    top: 40px;
+    left: 130px;
+}
+.three{
+    position: relative;
+    top: 40px;
+    left: 155px;
+}
+.four{
+    position: relative;
+    top: 40px;
+    left: 156px;
+}
+.tag{
+    position: absolute;
+    font-size: 30px;
+    left: 16vh;
+    bottom: 15px;
+}    
+.value {
+    color: #34495e;
+    border-bottom: 4px dashed #bdc3c7;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10em;
+    width: 300px; 
+    height: 100px;
+    line-height: 60px;
+    margin: 40px auto;
+    letter-spacing: -.07em;
+    text-shadow: white 2px 2px 2px;
+}
+input[type="range"] {
+    display: block;
+    -webkit-appearance: none;
+    background-color: #bdc3c7;
+    width: 300px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}​
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 2px solid #e74c3c;
+  }
+  input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.6);
+  }
+#play{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 35vh;
+    left: 82vh;
+    cursor: pointer;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+.plpa{
+    position: absolute;
+    top: 46vh;
+    left: 83vh;
+    font-size: 20px;
+    color: teal;
+}
+.countBPM{
+    position: absolute;
+    top: 10vh;
+    left: 70vh;
+}
+.off-speaker{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+.on-speaker{
+    position: absolute;
+    height: 200px;
+    width: 320px;
+}
+#off{
+    display: block;
+}
+#on{
+    display: none;
+}
+.dec{
+    position: absolute;
+    height: 421px;
+    width: 200px;
+}
+.left{
+    left: 1vh;
+    bottom: 5vh;
+}
+.right{
+    right: 1vh;
+    bottom: 5vh;
+}
+footer{
+    position: fixed;
+    height: 45px;
+    width: 180vh;
+    bottom: 0vh;
+    background-color: #1b1b42;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    vertical-align: baseline;
+}
+#foot{
+    position: relative;
+    font-size: 14px;
+    color: silver;
+    left: 60px;
+    top: 2px;
+}
+#mail{
+    position: relative;
+    left: 950px;
+}
+@keyframes player{
+    0%{left: 208px;}
+    100%{left: 1065px;}
+}

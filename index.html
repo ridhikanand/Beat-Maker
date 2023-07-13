@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Priyanshu Sinha">
+    <link rel="icon" 
+      type="image/png" 
+      href="./Logos-and-ill./icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chestra-The Beat Maker</title>
+</head>
+
+<body>
+    <img src="./Logos-and-ill./logo.png" id="logo">
+    <div class="countBPM">
+    <div class="value">0</div>
+    <input type="range" min="30" max="240" step="1" value="98" id="bpm"> 
+    <span class='tag' >BPM</span>
+    </div>
+    <input type="image" src="./Logos-and-ill./rec.png" alt="Play" id="play">
+    <div id="off">
+    <img src="./Logos-and-ill./speaker-1.png" alt="speaker-1" class="off-speaker"
+    style="top: 30vh; left: 30vh;">
+    <img src="./Logos-and-ill./speaker-1.png" alt="speaker-1" class="off-speaker"
+    style="top: 30vh; right: 30vh;">
+    </div><div id="on">
+    <img src="./Logos-and-ill./speaker-2.png" alt="speaker-2" class="on-speaker on1"
+    style="top: 30vh; left: 22.7vh;">
+    <img src="./Logos-and-ill./speaker-2.png" alt="speaker-2" class="on-speaker on2"
+    style="top: 30vh; right: 22.7vh;">
+    </div>
+    <span class="plpa">Play/Pause</span>
+    <p id="inst">You can click in the grid boxes to make your own version by creating or deleting notes.</p>
+    <div class="drums">
+        <div id="player"></div>
+        <span class="lbl one">Open Hat</span>
+        <div class="ohat">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <span class="lbl two">Close Hat</span>
+        <div class="chat">
+            <input type="checkbox" checked>
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+        </div>
+        <span class="lbl three">Clap</span>
+        <div class="clap">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <span class="lbl four">Kick</span>
+        <div class="kick">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox" checked>
+        </div>
+    </div>
+    <img class="dec left" src="./Logos-and-ill./speaker-3.png" alt="dec">
+    <img class="dec right" src="./Logos-and-ill./speaker-3.png" alt="dec">
+    <footer>
+        <p id="foot">© 2020 Priyanshu Sinha<span id="mail">officialpriyanshusinha [at] gmail [dot] com</span></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.42/Tone.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
